@@ -11,4 +11,5 @@
 # sudo git config --system alias.co checkout  #git co
 # sudo git config --system alias.br  branch   #git branch
 
-mv ./gitconfig ~/.gitconfig
+cp ./gitconfig ~/.gitconfig
+vim ~/.gitconfig
