@@ -3,7 +3,7 @@
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "sudo apt-get update"
 sudo apt-get update
-sudo apt-get install gcc g++ -y
+sudo apt-get install git gcc g++ -y
 
 sudo apt-get install vim ctags -y
 
