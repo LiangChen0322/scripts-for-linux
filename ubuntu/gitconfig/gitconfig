@@ -1,6 +1,6 @@
 [user]
-	email = #
-	name = #
+	email = liangchen0322@gmail.com
+	name = Chen Liang
 [color]
 	ui = true
 [core]
@@ -10,4 +10,4 @@
 	ci = commit
 	co = checkout
 	br = branch
-	coa = commit 
+	coa = commit

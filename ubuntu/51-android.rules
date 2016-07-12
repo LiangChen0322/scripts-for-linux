@@ -1,0 +1,12 @@
+# firefly rk3288
+SUBSYSTEM=="usb", ATTR{idVendor}=="2207", MODE="0666"
+
+#Huawei Technologies Co., Ltd. 
+SUBSYSTEM=="usb", ATTRS{idVendor}=="12d1", MODE="0660", GROUP="plugdev"
+
+#LINE TECH INDUSTRIAL CO., LTD. 
+SUBSYSTEM=="usb", ATTRS{idVendor}=="12d2", MODE="0660", GROUP="plugdev"
+
+#EMS Dr. Thomas Wuensche 
+SUBSYSTEM=="usb", ATTRS{idVendor}=="12d6", MODE="0660", GROUP="plugdev"
+
