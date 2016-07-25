@@ -1,0 +1,127 @@
+{
+	// Note that the font_face and font_size are overriden in the platform
+	// specific settings file, for example, "Preferences (Linux).sublime-settings".
+	// Because of this, setting them here will have no effect: you must set them
+	// in your User File Preferences.
+	// 设置字体和大小，必须在Settings-User里重写，这里设置没有任何效果
+	"font_face": "Ubuntu Mono",
+	"font_size": 11,
+
+	// Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
+	// "subpixel_antialias" and "no_round" (OS X only)
+	// 字体选项：no_bold不显示粗体字，no_italic不显示斜体字，no_antialias和no_antialias关闭反锯齿
+	// subpixel_antialias和no_round是OS X系统独有的
+	"font_options": [],
+
+	// Set to false to prevent line numbers being drawn in the gutter
+	// 是否显示行号
+	"line_numbers": true,
+	// Set to false to hide the gutter altogether
+	// 是否显示行号边栏
+	"gutter": true,
+
+	// Spacing between the gutter and the text
+	// 行号边栏和文字的间距
+	"margin": 4,
+
+	// Fold buttons are the triangles shown in the gutter to fold regions of text
+	// 是否显示代码折叠按钮
+	"fold_buttons": true,
+
+	// Hides the fold buttons unless the mouse is over the gutter
+	// 不管鼠标在不在行号边栏，代码折叠按钮一直显示
+	"fade_fold_buttons": true,
+
+	// Columns in which to display vertical rulers
+	//列显示垂直标尺，在中括号里填入数字，宽度按字符计算
+	"rulers": [],
+
+	// Set to true to turn spell checking on by default
+	// 是否打开拼写检查
+	"spell_check": false,
+
+	// Set to true to insert spaces when tab is pressed
+	// 设为true时，缩进和遇到Tab键时使用空格替代
+	"translate_tabs_to_spaces": false,
+
+	// If translate_tabs_to_spaces is true, use_tab_stops will make tab and
+	// backspace insert/delete up to the next tabstop
+	// translate_tabs_to_spaces设置为true，Tab和Backspace的删除/插入作用于制表符宽度
+	// 否则作用于单个空格
+	"use_tab_stops": true,
+
+	// Set to false to disable detection of tabs vs. spaces on load
+	// false时禁止在载入的时候检测制表符和空格
+	//"detect_indentation": true,
+
+	// Calculates indentation automatically when pressing enter
+	// 按回车时，自动与制表位对齐
+	"auto_indent": true,
+
+	// Makes auto indent a little smarter, e.g., by indenting the next line
+	// after an if statement in C. Requires auto_indent to be enabled.
+	//针对C语言的
+	"smart_indent": false,
+
+	// Adds whitespace up to the first open bracket when indenting. Requires
+	// auto_indent to be enabled.
+	// 需要启用auto_indent，第一次打开括号缩进时插入空格？（没测试出来效果…）
+	"indent_to_bracket": true,
+
+	// Trims white space added by auto_indent when moving the caret off the
+	// line.
+	// 显示对齐的白线是否根据回车、tab等操作自动填补
+	"trim_automatic_white_space": true,
+
+	// Set to false to prevent word wrapped lines from being indented to the same
+	// level
+	// 防止被缩进到同一级的字换行
+	"indent_subsequent_lines": true,
+
+	// Draws text centered in the window rather than left aligned
+	// 如果没有定义过，则文件居中显示（比如新建的文件）
+	"draw_centered": false,
+
+	// Controls auto pairing of quotes, brackets etc
+	// 自动匹配引号，括号等
+	"auto_match_enabled": true,
+
+	// Disables horizontal scrolling if enabled.
+	// May be set to true, false, or "auto", where it will be disabled for
+	// source code, and otherwise enabled.
+	"word_wrap": "true",
+
+	// Set to a value other than 0 to force wrapping at that column rather than the
+	// window width
+	"wrap_width": 0,
+
+	// Valid values are "system", "enabled" and "disabled"
+	"overlay_scroll_bars": "enabled",
+
+	// Determines what character(s) are used to terminate each line in new files.
+	// Valid values are ‘system’ (whatever the OS uses), ‘windows’ (CRLF) and
+	// ‘unix’ (LF only).
+	// 每一行结束的时候用什么字符做终止符
+	"default_line_ending": "unix",
+
+	"tab_size": 4,
+	"translate_tabs_to_spaces": false,
+
+	// folder_exclude_patterns and file_exclude_patterns control which files
+	// are listed in folders on the side bar. These can also be set on a per-
+	// project basis.
+	"file_exclude_patterns":
+	[
+		".tags",
+		".tags_sorted_by_file",
+		".gemtags",
+		".git"
+	],
+
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS"],
+
+	"ignored_packages":
+	[
+		//"Vintage",
+	],
+}
