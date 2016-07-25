@@ -13,4 +13,4 @@ sudo apt-get update
 
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "install sublime and terminator"
-sudo apt-get install sublime-text-installer terminator -y
+sudo apt-get install sublime-text-installer terminator
